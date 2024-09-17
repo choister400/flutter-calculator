@@ -95,7 +95,8 @@ class _CalculatorHomePageState extends State<CalculatorHomePage> {
           _buildButtonRow(['7', '8', '9', '/']),
           _buildButtonRow(['4', '5', '6', '*']),
           _buildButtonRow(['1', '2', '3', '-']),
-          _buildButtonRow(['C', '0', '=', '+']),
+          _buildButtonRow(['%', '0', '=', '+']), // Add the '%' button here
+          _buildButtonRow(['C']),
         ],
       ),
     );
